@@ -4,9 +4,7 @@ A comprehensive guide for setting up Immich (self-hosted photo & video backup) o
 
 ## View the Guide
 
-📖 **[Read the full guide here](https://yourusername.github.io/your-repo-name/)**
-
-*(Update the link above once you create your GitHub Pages site)*
+📖 **[Read the full guide here](https://echu888.github.io/immich-guide/)**
 
 ## What's Inside
 
