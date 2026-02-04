@@ -8,41 +8,6 @@ This guide walks through setting up **Immich** (self‑hosted photo & video back
 
 ---
 
-## Table of Contents
-
-- [High-Level Architecture](#high-level-architecture)
-- [Design Decisions and Optional Enhancements](#design-decisions-and-optional-enhancements)
-  - [Backups](#backups)
-  - [HTTPS and Remote Access](#https-and-remote-access)
-  - [Security Basics](#security-basics)
-  - [Storage Growth](#storage-growth)
-- [Step-by-Step Instructions](#step-by-step-instructions)
-- [1. Install Latest Ubuntu Server](#1-install-latest-ubuntu-server)
-- [2. Set a Static IP Address](#2-set-a-static-ip-address)
-- [3. Configure Firewall (UFW)](#3-configure-firewall-ufw)
-- [4. Install Docker and Docker Compose](#4-install-docker-and-docker-compose)
-- [5. Set Up Storage for Immich](#5-set-up-storage-for-immich)
-- [6. Install and Configure Immich](#6-install-and-configure-immich)
-- [7. Set Up Nginx Reverse Proxy (Strongly Recommended)](#7-set-up-nginx-reverse-proxy-strongly-recommended)
-- [8. Purchase a Domain Name (Required for Remote Access)](#8-purchase-a-domain-name-required-for-remote-access)
-- [9. Set Up DNS and Port Forwarding](#9-set-up-dns-and-port-forwarding)
-- [10. Set Up HTTPS with Let's Encrypt](#10-set-up-https-with-lets-encrypt)
-- [11. Install Immich Mobile Apps](#11-install-immich-mobile-apps)
-- [12. Configure Mobile Apps and Set Up Backup](#12-configure-mobile-apps-and-set-up-backup)
-- [13. Create Convenience Scripts](#13-create-convenience-scripts)
-- [14. Import Photos from Google Photos (Optional)](#14-import-photos-from-google-photos-optional)
-- [15. Backup Strategy (Strongly Recommended)](#15-backup-strategy-strongly-recommended)
-- [16. Optional: Google OAuth Integration](#16-optional-google-oauth-integration)
-- [17. Maintenance and Updates](#17-maintenance-and-updates)
-- [Beginner Tips: How to Think While Using Linux](#beginner-tips-how-to-think-while-using-linux)
-- [Common Beginner Mistakes (And How to Avoid Them)](#common-beginner-mistakes-and-how-to-avoid-them)
-- [Advanced Storage Setup (Optional)](#advanced-storage-setup-optional)
-- [Troubleshooting](#troubleshooting)
-- [Additional Resources](#additional-resources)
-- [Conclusion](#conclusion)
-
----
-
 ## High‑Level Architecture
 
 * Ubuntu Server (bare metal or VM)
